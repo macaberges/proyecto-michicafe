@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Michi Café</title>
+  </head>
+  <body class="michis">
+    <header class="encabezado">
+      <img src="../img/Logo.png" alt="logo del sitio" class="logo-img" />
+
+      <nav>
+        <ul class="navbar">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./carta.html">Carta</a></li>
+          <li><a href="./nuestrosmichis.html">Nuestros Michis</a></li>
+          <li><a href="./galeria.html">Galería</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="https://instagram.com"> <i class="bi bi-instagram"></i> </a>
+
+        <a href="https://facebook.com"> <i class="bi bi-facebook"> </i> </a>
+
+        <a href="https://twitter.com"> <i class="bi bi-twitter"> </i> </a>
+      </div>
+    </header>
+    <main>
+
+      <div class="michigrid">
+        <div class="img-cat"> <img src="../img/gato-1.jpeg"> <p>FLO</p> </div>
+        <div class="img-cat"> <img src="../img/gato-2.jpg"> <p>PEPE</p> </div>
+        <div class="img-cat"> <img src="../img/gato-3.jpg"> <p>EREN</p> </div>
+        <div class="img-cat"> <img src="../img/gato-4.jpg"> <p>LEVI</p></div>
+        <div class="img-cat"> <img src="../img/gato-5.jpg"> <p>SASHA</p> </div>
+        <div class="img-cat"> <img src="../img/gato-6.jpg"> <p>HANJI</p> </div>
+      </div>
+
+        
+    </main>
+
+    <footer class="footer">
+      <div class="sucursales"> 
+        <h4>SUCURSALES</h4>
+        <P> Maschwitz • Tigre • Olivos • Palermo
+  </P>
+      </div>
+
+      <div class="trabajo"> <h4> TRABAJÁ CON NOSOTROS</h4>
+        <p> michitrabajo@gmail.com</p>
+      </div>
+
+      <div class="redes">
+        <h4>SEGUINOS EN LAS REDES!</h4>
+        <div><a href="https://instagram.com"> <i class="bi bi-instagram"></i> </a>
+
+          <a href="https://facebook.com"> <i class="bi bi-facebook"> </i> </a>
+  
+          <a href="https://twitter.com"> <i class="bi bi-twitter"> </i> </a> </div>
+      </div>
+
+          <div class="copy">
+            <p>&copy Macarena Berges 2022</p>
+          </div>
+          
+
+      </div>
+  </body>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      var hamburguesa = document.getElementById("hamburguesa");
+      var nav = document.getElementById("nav-mobile");
+      var abierto = false;
+      hamburguesa.addEventListener("click", function (event) {
+        nav.classList.toggle("open");
+      });
+    });
+  </script>
+</html>

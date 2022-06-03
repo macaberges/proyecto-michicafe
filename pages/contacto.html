@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Michi Café</title>
+  </head>
+
+  <body class="contacto">
+    <header class="encabezado">
+      <img src="../img/Logo.png" alt="logo del sitio" class="logo-img" />
+
+      <nav>
+        <ul class="navbar">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./carta.html">Carta</a></li>
+          <li><a href="./nuestrosmichis.html">Nuestros Michis</a></li>
+          <li><a href="./galeria.html">Galería</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="https://instagram.com"> <i class="bi bi-instagram"></i> </a>
+
+        <a href="https://facebook.com"> <i class="bi bi-facebook"> </i> </a>
+
+        <a href="https://twitter.com"> <i class="bi bi-twitter"> </i> </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Formulario de contacto</h3>
+          <h4>Dejanos tu mensaje!</h4>
+          <fieldset>
+            <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Email" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Telefono" type="tel" tabindex="3" required>
+          </fieldset>
+
+          <fieldset>
+            <textarea placeholder="Escribe tu mensaje..." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+       
+        
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="sucursales"> 
+        <h4>SUCURSALES</h4>
+        <P> Maschwitz • Tigre • Olivos • Palermo
+  </P>
+      </div>
+
+      <div class="trabajo"> <h4> TRABAJÁ CON NOSOTROS</h4>
+        <p> michitrabajo@gmail.com</p>
+      </div>
+
+      <div class="redes">
+        <h4>SEGUINOS EN LAS REDES!</h4>
+        <div><a href="https://instagram.com"> <i class="bi bi-instagram"></i> </a>
+
+          <a href="https://facebook.com"> <i class="bi bi-facebook"> </i> </a>
+  
+          <a href="https://twitter.com"> <i class="bi bi-twitter"> </i> </a> </div>
+      </div>
+
+          <div class="copy">
+            <p>&copy Macarena Berges 2022</p>
+          </div>
+          
+
+      </div>
+  </body>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      var hamburguesa = document.getElementById("hamburguesa");
+      var nav = document.getElementById("nav-mobile");
+      var abierto = false;
+      hamburguesa.addEventListener("click", function (event) {
+        nav.classList.toggle("open");
+      });
+    });
+  </script>
+</html>
