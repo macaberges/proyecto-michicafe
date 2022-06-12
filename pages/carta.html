@@ -4,92 +4,171 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Michi Café</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
+
   <body>
-    <header class="encabezado">
-      <img src="../img/logo.png" alt="logo del sitio" class="logo-img" />
+    <header>
+      <!-- Navbar  -->
 
-      <nav>
-        <ul class="navbar">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="./carta.html">Carta</a></li>
-          <li><a href="./nuestrosmichis.html">Nuestros Michis</a></li>
-          <li><a href="./galeria.html">Galería</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img class="mh-50" src="../img/logo.png" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">
+                  <button class="custom-btn btn-3"><span>HOME</span></button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/carta.html">
+                  <button class="custom-btn btn-3"><span>CARTA</span></button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/galeria.html">
+                  <button class="custom-btn btn-3"><span>GALERÍA</span></button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nuestrosmichis.html">
+                  <button class="custom-btn btn-3">
+                    <span>MICHIS</span>
+                  </button>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">
+                  <button class="custom-btn btn-3">
+                    <span> CONTACTO</span>
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-
-      <div class="social">
-        <a href="https://instagram.com"> <i class="bi bi-instagram"></i> </a>
-
-        <a href="https://facebook.com"> <i class="bi bi-facebook"> </i> </a>
-
-        <a href="https://twitter.com"> <i class="bi bi-twitter"> </i> </a>
-      </div>
     </header>
-    <main>
-
-      <div class="menu-web">
-        
-        <div class="carta" > <img data-aos="flip-left" src="../img/wcarta-1.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/wcarta-2.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/wcarta-3.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/wcarta-4.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/wcarta-5.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/wcarta-6.png"> </div>
-        
-
-        
+    <!-- MENÚ  -->
+    <main id="menu">
+      <div class="text-carta border-bottom border-2 border-dark">
+        <h1>
+          CONOCÉ<br />
+          NUESTRA CARTA
+        </h1>
       </div>
 
-      <div class="menu-mobile">
-        
-        <div class="carta" > <img data-aos="flip-left" src="../img/mcarta-1.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/mcarta-2.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/mcarta-3.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/mcarta-4.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/mcarta-5.png"> </div>
-        <div class="carta" > <img data-aos="flip-left" src="../img/mcarta-6.png"> </div>
-
+      <div class="container d-flex flex-column">
+        <div class="row">
+          <div class="col">
+            <div data-aos="flip-left">
+              <img class="w-100" src="../img/wcarta-1.png" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div data-aos="flip-left">
+              <img class="w-100" src="../img/wcarta-2.png" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div data-aos="flip-left">
+              <img class="w-100" src="../img/wcarta-3.png" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div data-aos="flip-left">
+              <img class="w-100" src="../img/wcarta-4.png" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div data-aos="flip-left">
+              <img class="w-100" src="../img/wcarta-5.png" />
+            </div>
+          </div>
+        </div>
       </div>
-
-      
     </main>
 
-    <footer class="footer">
-      <div class="sucursales"> 
-        <h4>SUCURSALES</h4>
-        <P> Maschwitz • Tigre • Olivos • Palermo
-  </P>
-      </div>
+    <!-- FOOTER -->
 
-      <div class="trabajo"> <h4> TRABAJÁ CON NOSOTROS</h4>
-        <p> michitrabajo@gmail.com</p>
-      </div>
-
-      <div class="redes">
-        <h4>SEGUINOS EN LAS REDES!</h4>
-        <div><a href="https://instagram.com"> <i class="bi bi-instagram"></i> </a>
-
-          <a href="https://facebook.com"> <i class="bi bi-facebook"> </i> </a>
-  
-          <a href="https://twitter.com"> <i class="bi bi-twitter"> </i> </a> </div>
-      </div>
-
-          <div class="copy">
-            <p>&copy Macarena Berges 2022</p>
+    <footer>
+      <div id="footer" class="container-fluid text-center pt-5 pb-1">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 p-5">
+            <p>SUCURSALES</p>
+            <p>Maschwitz • Tigre • Olivos • Palermo</p>
           </div>
-          
 
+          <div class="col-md-4 col-sm-12 p-5">
+            <p>TRABAJÁ CON NOSOTROS</p>
+            <p>michitrabajo@gmail.com</p>
+          </div>
+          <div class="col-md-4 col-sm-12 p-5">
+            <p>CONTACTO</p>
+            <p>(+54) 11-64606401</p>
+            <p>miau@michicafe.com.ar</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"><p>&copy Macarena Berges 2022</p></div>
+        </div>
       </div>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
-  </body>
+    </footer>
 
-  
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="text/javascript">
+      var nav = document.querySelector("nav");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("bg-dark", "shadow");
+        } else {
+          nav.classList.remove("bg-dark", "shadow");
+        }
+      });
+    </script>
+  </body>
 </html>
