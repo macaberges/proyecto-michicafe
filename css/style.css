@@ -468,7 +468,7 @@ fieldset {
   }
 
   .refcarta .refcarta-text {
-    font-size: 25px;
+    font-size: 20px; 
   }
 
   .navbar {
@@ -477,6 +477,10 @@ fieldset {
 
   #social-text {
     font-size: 40px;
+  }
+
+  .img-social {
+    max-width: 100%;
   }
 
   .text-michis h1 {
