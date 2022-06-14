@@ -361,7 +361,6 @@ button {
   height: 100%;
   object-fit: cover;
 }
- 
 
 .sucursales h2 {
   font-family: "Quicksand", sans-serif;
@@ -542,7 +541,7 @@ fieldset {
   .img-carta {
     width: 100%;
     margin-left: 0;
-  } 
+  }
   .gifgaleria img {
     width: 90%;
   }
@@ -551,5 +550,9 @@ fieldset {
     text-align: center;
     width: 100%;
     padding-top: 2rem;
-  } 
+  }
+  #galeria img {
+    width: 100%;
+    height: 40vh;
+  }
 }
