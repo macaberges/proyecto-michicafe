@@ -6,11 +6,10 @@
   padding: 0;
 }
 
- 
 /* COMPARTIDO */
 /* NAVBAR */
 .mh-50 {
-  height: 7rem;
+  height: 5rem;
 }
 
 .navbar {
@@ -18,15 +17,16 @@
 }
 
 button {
-  margin: 20px;
+  margin: 10px;
 }
 .custom-btn {
   width: 130px;
   height: 40px;
   color: rgb(255, 255, 255);
   padding: 10px 25px;
-  font-family: "Oswald", sans-serif;
-  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -195,6 +195,10 @@ button {
   color: white;
 }
 
+.img-refmenu {
+  width: 100%;
+}
+
 /* PAGE HOME - SOCIAL MEDIA*/
 
 #social {
@@ -278,16 +282,31 @@ button {
   font-size: 70px;
 }
 
-#carrusel {
-  background-image: url(../img/bg-carousel.png);
-  background-size: cover;
+#galeria img {
+  width: 100%;
+  height: 400px;
+}
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
 }
 
-.carousel {
-  width: 60%;
+#galeria img:hover {
+  border: 5px solid #f7f7f7;
 }
 
+.gifgaleria {
+  text-align: center;
+}
 
+.texto-gif {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(202, 137, 99);
+  text-shadow: black;
+  width: 50%;
+}
 /* PAGE MICHIS */
 
 .text-michis {
@@ -307,29 +326,49 @@ button {
   font-size: 70px;
 }
 
-#michicards .card-body {
-  background-image: url(../img/bg-cards-michis.png);
-  background-size: cover;
+.michicards .swiper {
+  width: 100%;
+  height: 100%;
 }
 
-#michicards .card-title {
+.michicards .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+}
+
+.michicard {
+  background-image: url(../img/bg-cards-michis.png);
+  background-size: contain;
+}
+
+.michicard .michicard-title {
   font-family: "Amatic SC", cursive;
+  font-weight: bold;
   font-size: 40px;
 }
 
-#michicards .card-text {
-  font-size: 15px;
-  font-weight: bold;
+.michicard .michicard-text {
   font-family: "Quicksand", sans-serif;
+  font-weight: bold;
 }
 
-#sucursal-title {
-  font-size: 25px;
+.michicards .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sucursales h2 {
   font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: rgb(247, 165, 236);
 }
 
 /* PAGE CONTACTO */
-
 
 .text-contacto {
   background-image: linear-gradient(
@@ -468,7 +507,7 @@ fieldset {
   }
 
   .refcarta .refcarta-text {
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   .navbar {
@@ -505,5 +544,14 @@ fieldset {
   }
   .carousel {
     width: 100%;
+  }
+  .gifgaleria img {
+    width: 90%;
+  }
+  .gifgaleria .texto-gif {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
   }
 }
