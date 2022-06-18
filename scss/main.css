@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar .logo {
+  height: 5rem;
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fcf4e9;
+  padding: 10px 25px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  background: rgba(245, 212, 186, 0);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 216, 164, 0)), to(rgba(228, 152, 11, 0)));
+  background: linear-gradient(0deg, rgba(255, 216, 164, 0) 0%, rgba(228, 152, 11, 0) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.custom-btn span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-btn:before,
+.custom-btn:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:before {
+  height: 0%;
+  width: 2px;
+}
+
+.custom-btn:after {
+  width: 0%;
+  height: 2px;
+}
+
+.custom-btn:hover {
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.custom-btn:hover:before {
+  height: 100%;
+}
+
+.custom-btn:hover:after {
+  width: 100%;
+}
+
+.custom-btn span:hover {
+  color: white;
+}
+
+.custom-btn span:before,
+.custom-btn span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: white;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.custom-btn span:before {
+  width: 2px;
+  height: 0%;
+}
+
+.custom-btn span:after {
+  width: 0%;
+  height: 2px;
+}
+
+.custom-btn span:hover:before {
+  height: 100%;
+}
+
+.custom-btn span:hover:after {
+  width: 100%;
+}
+
+#footer {
+  background-color: #313131;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+.banner-home {
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-home h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 140px;
+  text-align: center;
+  padding-top: 20%;
+  text-shadow: black;
+  color: #fcf4e9;
+}
+
+.refcarta {
+  background-color: white;
+  background-image: url(../img/bg-refmenu.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  color: #494949;
+}
+
+.refcarta .btn {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  font-size: 25px;
+  color: #e0acd0;
+}
+
+#anfitriones {
+  background-color: #0d0e11;
+  background-image: url(../img/bg-refmichis.png);
+  background-size: cover;
+  text-align: center;
+  color: #fcf4e9;
+  font-family: "Quicksand", sans-serif;
+}
+
+#anfitriones .btn {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  color: #e0acd0;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.card-body .card-title {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Amatic SC", cursive;
+}
+
+#refcontact {
+  background-image: url(../img/bg-refcontact.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#refcontact h2 {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #fcf4e9;
+  font-family: "Quicksand", sans-serif;
+}
+
+#refcontact .btn {
+  color: #e0acd0;
+  font-size: 30px;
+  font-family: "Amatic SC", cursive;
+}
+
+/* PAGE HOME - SOCIAL MEDIA*/
+#social {
+  background-image: url(../img/bg-social.png);
+  background-size: cover;
+}
+
+#social #social-text {
+  font-size: 50px;
+  font-family: "Amatic SC", cursive;
+  padding-bottom: 10px;
+}
+
+#social .social .bi-instagram {
+  color: #e0acd0;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+#social .social .bi-facebook {
+  color: #e0acd0;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+#social .social .bi-twitter {
+  color: #e0acd0;
+  font-size: 2rem;
+  padding: 5px;
+}
+
+#social .img-social {
+  width: 50vh;
+}
+
+.banner-carta {
+  background-image: url(../img/banner-carta.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.banner-carta h1 {
+  font-family: "Amatic SC", cursive;
+  color: white;
+  text-shadow: black;
+  font-size: 70px;
+}
+
+.carta {
+  background-image: url(../img/bg-menu.png);
+  background-size: contain;
+  background-position: top;
+  background-color: #ffffff;
+}
+
+.carta .img-carta {
+  width: 100%;
+}
+
+.banner-galeria {
+  background-image: url(../img/banner-galeria.jfif);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.banner-galeria h1 {
+  font-family: "Amatic SC", cursive;
+  color: white;
+  text-shadow: black;
+  font-size: 70px;
+}
+
+.gifgaleria {
+  text-align: center;
+}
+
+.gifgaleria .texto-gif {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  text-align: center;
+  color: #ca8963;
+  text-shadow: black;
+  width: 50%;
+}
+
+#galeria img {
+  width: 100%;
+  height: 400px;
+}
+
+#galeria img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0 !important;
+}
+
+.banner-michis {
+  background-image: url(../img/banner-michis.jfif);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.banner-michis h1 {
+  font-family: "Amatic SC", cursive;
+  color: white;
+  text-shadow: black;
+  font-size: 70px;
+}
+
+.sucursales h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #e0acd0;
+}
+
+.text-michis .michicards .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.michicards .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+          box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+}
+
+.michicard {
+  background-image: url(../img/bg-cards-michis.png);
+  background-size: contain;
+}
+
+.michicard .michicard-title {
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.michicard .michicard-text {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+.michicards .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner-contacto {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/banner-contacto.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner-contacto.jpeg");
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.banner-contacto h1 {
+  font-family: "Amatic SC", cursive;
+  color: white;
+  text-shadow: black;
+  font-size: 70px;
+}
+
+#formulario {
+  background-image: url(../img/bg-form.png);
+  background-size: cover;
+  background-color: #f1ece1;
+  height: 1000px;
+}
+
+.container-form {
+  padding-top: 10%;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #ffffff;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+#contact h3 {
+  color: #eba5e5;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #e9a6f1;
+  color: black;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #e8d7fa;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.082);
+  }
+  .navbar .logo {
+    height: 80px;
+  }
+  .banner-home h1 {
+    font-size: 50px;
+    padding-top: 70%;
+  }
+  .refcarta {
+    font-size: 20px;
+  }
+  #social-text {
+    font-size: 40px;
+  }
+  .img-social {
+    max-width: 100%;
+  }
+  .banner-michis h1 {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+  .banner-contacto h1 {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+  .banner-galeria h1 {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+  .banner-carta h1 {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+  .img-carta {
+    width: 100%;
+    margin-left: 0;
+  }
+  .gifgaleria img {
+    width: 90%;
+  }
+  .gifgaleria .texto-gif {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+  }
+  #galeria img {
+    width: 100%;
+    height: 40vh;
+  }
+}
+/*# sourceMappingURL=main.css.map */

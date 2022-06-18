@@ -1,0 +1,58 @@
+@media screen and (max-width: 576px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.082);
+    .logo {
+      height: 80px;
+    }
+  }
+  .banner-home h1 {
+    font-size: 50px;
+    padding-top: 70%;
+  }
+
+  .refcarta  {
+    font-size: 20px;
+  }
+
+  #social-text {
+    font-size: 40px;
+  }
+
+  .img-social {
+    max-width: 100%;
+  }
+
+  .banner-michis h1 {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+  .banner-contacto h1 {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+  .banner-galeria h1 {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+  .banner-carta h1 {
+    font-size: 50px;
+    padding-top: 30%;
+  }
+  .img-carta {
+    width: 100%;
+    margin-left: 0;
+  }
+  .gifgaleria img {
+    width: 90%;
+  }
+  .gifgaleria .texto-gif {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-top: 2rem;
+  }
+  #galeria img {
+    width: 100%;
+    height: 40vh;
+  }
+}
