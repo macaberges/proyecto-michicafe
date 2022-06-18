@@ -15,45 +15,40 @@
 }
 
 .sucursales h2 {
-    font-family: "Quicksand", sans-serif;
-    font-weight: bold;
-    color: $colortexto-3;
-  }
-  
-
-.text-michis .michicards .swiper {
-  width: 100%;
-  height: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: $colortexto-3;
 }
 
-.michicards .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+.michicards .swiper {
+  width: 100%;
+  height: 100%;
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
+  }
 }
 
 .michicard {
   background-image: url(../img/bg-cards-michis.png);
   background-size: contain;
+  .michicard-title {
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    .michicard-text {
+      font-family: "Quicksand", sans-serif;
+      font-weight: bold;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 }
-
-.michicard .michicard-title {
-  font-family: "Amatic SC", cursive;
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.michicard .michicard-text {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
-}
-
-.michicards .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-

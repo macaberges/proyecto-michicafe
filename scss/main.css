@@ -322,12 +322,12 @@
   color: #e0acd0;
 }
 
-.text-michis .michicards .swiper {
+.michicards .swiper {
   width: 100%;
   height: 100%;
 }
 
-.michicards .swiper-slide {
+.michicards .swiper .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -347,12 +347,12 @@
   font-size: 40px;
 }
 
-.michicard .michicard-text {
+.michicard .michicard-title .michicard-text {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
 }
 
-.michicards .swiper-slide img {
+.michicard .michicard-title img {
   display: block;
   width: 100%;
   height: 100%;
