@@ -5,17 +5,37 @@
       height: 80px;
     }
   }
-  .banner-home h1 {
-    font-size: 50px;
-    padding-top: 70%;
+  .banner-home {
+    .banner-text {
+      font-size: 80px;
+      padding-top: 70%;
+    }
   }
 
-  .refcarta  {
+  .about {
+    .titulo {
+      h3 {
+        font-size: 1.8rem;
+      }
+    }
+    .texto {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+
+  .refcarta {
     font-size: 20px;
   }
 
   #social-text {
     font-size: 40px;
+  }
+
+  #anfitriones {
+    h2 {
+      font-weight: bold;
+    }
   }
 
   .img-social {
@@ -30,13 +50,17 @@
     font-size: 50px;
     padding-top: 30%;
   }
-  .banner-galeria h1 {
-    font-size: 50px;
-    padding-top: 30%;
+  .banner-galeria {
+    .text-galeria {
+      font-size: 50px;
+      padding-top: 30%;
+    }
   }
-  .banner-carta h1 {
-    font-size: 50px;
-    padding-top: 30%;
+  .banner-carta {
+    .text-carta {
+      font-size: 50px;
+      padding-top: 30%;
+    }
   }
   .img-carta {
     width: 100%;
@@ -50,9 +74,5 @@
     text-align: center;
     width: 100%;
     padding-top: 2rem;
-  }
-  #galeria img {
-    width: 100%;
-    height: 40vh;
   }
 }

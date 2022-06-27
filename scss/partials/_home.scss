@@ -1,7 +1,7 @@
 .banner-home {
   background-size: cover;
   background-position: center;
-  h1 {
+  .banner-text {
     font-family: "Amatic SC", cursive;
     font-size: 140px;
     text-align: center;
@@ -11,24 +11,49 @@
   }
 }
 
-.refcarta {
-  background-color: rgb(255, 255, 255);
-  background-image: url(../img/bg-refmenu.png);
+.about {
+  background-color: #212529;
+  background-position: center;
+  background-size: cover;
+  .titulo {
+    h3 {
+      color: $colortexto-2;
+      font-family: "Quicksand", sans-serif;
+      font-weight: bold;
+      font-size: 2.5rem;
+    }
+  }
+  .texto {
+    color: $colortexto-2;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+}
+
+.refcarta { 
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/fondocarta.png);
   background-size: cover;
   background-position: center;
   font-family: "Quicksand", sans-serif;
   font-size: 30px;
-  color: rgb(73, 73, 73);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  height: 750px;
   .btn {
-    font-family: "Amatic SC", cursive;
-    font-weight: bold;
-    font-size: 25px;
-    color: $colortexto-3;
+    font-family: map-get($map: $estilosBoton, $key: fuente);
+    font-weight: map-get($map: $estilosBoton, $key: negrita);
+    font-size: map-get($map: $estilosBoton, $key: tamaño);
   }
 }
 
 #anfitriones {
-  background-color: rgb(13, 14, 17);
+  background-color: #212529;
   background-image: url(../img/bg-refmichis.png);
   background-size: cover;
   text-align: center;
@@ -70,8 +95,6 @@
   }
 }
 
-/* PAGE HOME - SOCIAL MEDIA*/
-
 #social {
   background-image: url(../img/bg-social.png);
   background-size: cover;
@@ -85,18 +108,19 @@
       color: $colortexto-3;
       font-size: 2rem;
       padding: 10px;
+      &:hover {
+        box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
+        color: rgb(170, 116, 161);
+        transform: scale(0.9);
+      }
     }
 
     .bi-facebook {
-      color: $colortexto-3;
-      font-size: 2rem;
-      padding: 10px;
+      @extend .bi-instagram;
     }
 
     .bi-twitter {
-      color: $colortexto-3;
-      font-size: 2rem;
-      padding: 5px;
+      @extend .bi-instagram;
     }
   }
 

@@ -1,17 +1,7 @@
 .banner-carta {
-  background-image: url(../img/banner-carta.jpg);
-  height: 500px;
-  background-size: cover;
-  background-position: center;
-
-  background-position: center;
-  text-align: center;
-  padding-top: 10%;
-  h1 {
-    font-family: "Amatic SC", cursive;
-    color: white;
-    text-shadow: black;
-    font-size: 70px;
+  @include banner(url(../img/banner-carta.jpg)) ;
+  .text-carta {
+    @include bannerText;
   }
 }
 

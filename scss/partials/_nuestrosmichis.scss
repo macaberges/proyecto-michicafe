@@ -1,16 +1,7 @@
 .banner-michis {
-  background-image: url(../img/banner-michis.jfif);
-  height: 500px;
-  background-size: cover;
-
-  background-position: center;
-  text-align: center;
-  padding-top: 10%;
+  @include banner(url(../img/banner-michis.jfif));
   h1 {
-    font-family: "Amatic SC", cursive;
-    color: white;
-    text-shadow: black;
-    font-size: 70px;
+    @include bannerText;
   }
 }
 
@@ -36,6 +27,14 @@
 .michicard {
   background-image: url(../img/bg-cards-michis.png);
   background-size: contain;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+  }
   .michicard-title {
     font-family: "Amatic SC", cursive;
     font-weight: bold;
@@ -44,11 +43,9 @@
       font-family: "Quicksand", sans-serif;
       font-weight: bold;
     }
-    img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
   }
+}
+
+:root {
+  --swiper-theme-color: pink !important;
 }
