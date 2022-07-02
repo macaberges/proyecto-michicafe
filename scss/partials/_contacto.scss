@@ -10,7 +10,7 @@
   background-image: url(../img/bg-form.png);
   background-size: cover;
   background-position: center;
-  background-color: rgb(241, 236, 225);
+  background-color: $principal;
   height: 1000px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 #contact h3 {
-  color: rgb(235, 165, 229);
+  color: $rosita;
   display: block;
   font-size: 30px;
   font-weight: 400;
@@ -89,7 +89,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: rgb(233, 166, 241);
+  background: $rosita;
   color: rgb(0, 0, 0);
   margin: 0 0 5px;
   padding: 10px;
@@ -97,7 +97,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background: rgb(232, 215, 250);
+  background: $celestito ;
   transition: background-color 0.3s ease-in-out;
 }
 

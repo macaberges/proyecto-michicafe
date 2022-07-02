@@ -9,8 +9,8 @@
 .gifgaleria {
   text-align: center;
   .texto-gif {
-    font-family: "Amatic SC", cursive;
-    font-size: 60px;
+    font-family: "Glacial Indifference" ;
+    font-size: 2rem;
     text-align: center;
     color: rgb(202, 137, 99);
     text-shadow: black;
@@ -19,9 +19,7 @@
 }
 
 #galeria {
-  img {
-    width: 100%;
-
+  img { 
     &:hover {
       filter: brightness(80%);
     }
@@ -38,4 +36,4 @@
       transform: scale(0.9);
     }
   }
-}
+}  

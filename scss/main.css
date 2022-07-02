@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pompiere&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -53,7 +55,7 @@
   content: "";
   right: 0;
   top: 0;
-  background: white;
+  background: #B1E8E5;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -92,7 +94,7 @@
   content: "";
   left: 0;
   bottom: 0;
-  background: white;
+  background: #F985E4;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -121,130 +123,117 @@
   font-family: "Quicksand", sans-serif;
 }
 
+#footer .bi {
+  color: #B1E8E5;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+#footer .bi:hover {
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
+          box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
+  color: #F985E4;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 .banner-home {
   background-size: cover;
   background-position: center;
 }
 
 .banner-home .banner-text {
-  font-family: "Amatic SC", cursive;
-  font-size: 140px;
+  font-family: "Veneer";
+  font-size: 15vh;
   text-align: center;
-  padding-top: 20%;
-  text-shadow: black;
+  padding-top: 15%;
+  text-shadow: 1px 1px 2px #5f5d5d;
   color: #fcf4e9;
 }
 
 .about {
-  background-color: #212529;
-  background-position: center;
+  background-color: #f3ece0;
+  background-position: right;
   background-size: cover;
 }
 
 .about .titulo h3 {
-  color: #fcf4e9;
-  font-family: "Quicksand", sans-serif;
+  color: #200613;
+  font-family: "Glacial Indifference";
   font-weight: bold;
   font-size: 2.5rem;
 }
 
 .about .texto {
-  color: #fcf4e9;
-  font-family: "Quicksand", sans-serif;
+  color: #200613;
+  font-family: "Glacial Indifference";
   font-size: 1.4rem;
   text-align: justify;
 }
 
 .refcarta {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/fondocarta.png);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondocarta.png);
+  background-image: url(../img/fondocarta.png);
   background-size: cover;
-  background-position: center;
-  font-family: "Quicksand", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: white;
-  height: 750px;
+  background-position: initial;
+  height: 800px;
 }
 
-.refcarta .btn {
-  font-family: "Amatic SC";
+.refcarta .texto {
+  width: 50%;
+  font-family: "Glacial Indifference";
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.refcarta .boton .btn {
+  font-size: 20px;
+  font-family: "Glacial Indifference";
   font-weight: bold;
-  font-size: 25px;
 }
 
 #anfitriones {
-  background-color: #212529;
-  background-image: url(../img/bg-refmichis.png);
+  background-color: #f3ece0;
   background-size: cover;
   text-align: center;
-  color: #fcf4e9;
-  font-family: "Quicksand", sans-serif;
+  color: #F985E4;
+  font-family: "Glacial Indifference";
 }
 
 #anfitriones .btn {
-  font-family: "Amatic SC", cursive;
-  font-size: 30px;
-  color: #e0acd0;
+  font-family: "Glacial Indifference";
+  font-size: 20px;
 }
 
-.card-body {
-  background-color: black;
+.card {
+  background-color: #e9f2f5;
 }
 
-.card-body .card-title {
+.card .card-title {
   text-align: center;
-  color: white;
-  font-size: 30px;
-  font-family: "Amatic SC", cursive;
+  color: #B1E8E5;
+  font-size: 25px;
+  font-family: "Glacial Indifference";
 }
 
 #refcontact {
-  background-image: url(../img/bg-refcontact.png);
+  background-image: url(../img/fondo-contact.png);
   background-size: cover;
-  background-position: center;
+  background-position: initial;
+  height: 50vh;
 }
 
 #refcontact h2 {
-  padding-top: 10%;
-  padding-bottom: 10%;
   color: #fcf4e9;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Glacial Indifference";
+  width: 30%;
+  padding-bottom: 2%;
 }
 
 #refcontact .btn {
-  color: #e0acd0;
-  font-size: 30px;
-  font-family: "Amatic SC", cursive;
-}
-
-#social {
-  background-image: url(../img/bg-social.png);
-  background-size: cover;
-}
-
-#social #social-text {
-  font-size: 50px;
-  font-family: "Amatic SC", cursive;
-  padding-bottom: 10px;
-}
-
-#social .social .bi-instagram, #social .social .bi-facebook, #social .social .bi-twitter {
-  color: #e0acd0;
-  font-size: 2rem;
-  padding: 10px;
-}
-
-#social .social .bi-instagram:hover, #social .social .bi-facebook:hover, #social .social .bi-twitter:hover {
-  -webkit-box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
-          box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
-  color: #aa74a1;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-}
-
-#social .img-social {
-  width: 50vh;
+  font-size: 20px;
+  font-family: "Glacial Indifference";
 }
 
 .banner-carta {
@@ -258,17 +247,21 @@
 }
 
 .banner-carta .text-carta {
-  font-family: "Amatic SC", cursive;
+  font-family: "Veneer";
   color: white;
   text-shadow: black;
   font-size: 70px;
 }
 
 .carta {
-  background-image: url(../img/bg-menu.png);
-  background-size: contain;
-  background-position: top;
   background-color: #ffffff;
+}
+
+.carta .title {
+  text-align: center;
+  font-family: "Glacial Indifference";
+  font-size: 40px;
+  color: #F985E4;
 }
 
 .carta .img-carta {
@@ -286,7 +279,7 @@
 }
 
 .banner-galeria .text-galeria {
-  font-family: "Amatic SC", cursive;
+  font-family: "Veneer";
   color: white;
   text-shadow: black;
   font-size: 70px;
@@ -297,16 +290,12 @@
 }
 
 .gifgaleria .texto-gif {
-  font-family: "Amatic SC", cursive;
-  font-size: 60px;
+  font-family: "Glacial Indifference";
+  font-size: 2rem;
   text-align: center;
   color: #ca8963;
   text-shadow: black;
   width: 75%;
-}
-
-#galeria img {
-  width: 100%;
 }
 
 #galeria img:hover {
@@ -338,20 +327,20 @@
 }
 
 .banner-michis h1 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Veneer";
   color: white;
   text-shadow: black;
   font-size: 70px;
 }
 
 .sucursales h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Glacial Indifference";
   font-weight: bold;
-  color: #e0acd0;
+  color: #B1E8E5;
 }
 
 .michicards .swiper {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
@@ -379,18 +368,18 @@
 }
 
 .michicard .michicard-title {
-  font-family: "Amatic SC", cursive;
+  font-family: "Glacial Indifference";
   font-weight: bold;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .michicard .michicard-title .michicard-text {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Glacial Indifference";
   font-weight: bold;
 }
 
 :root {
-  --swiper-theme-color: pink !important;
+  --swiper-theme-color: #F985E4 !important;
 }
 
 .banner-contacto {
@@ -404,7 +393,7 @@
 }
 
 .banner-contacto h1 {
-  font-family: "Amatic SC", cursive;
+  font-family: "Veneer";
   color: white;
   text-shadow: black;
   font-size: 70px;
@@ -414,7 +403,7 @@
   background-image: url(../img/bg-form.png);
   background-size: cover;
   background-position: center;
-  background-color: #f1ece1;
+  background-color: #f3ece0;
   height: 1000px;
 }
 
@@ -442,7 +431,7 @@
 }
 
 #contact h3 {
-  color: #eba5e5;
+  color: #F985E4;
   display: block;
   font-size: 30px;
   font-weight: 400;
@@ -494,7 +483,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #e9a6f1;
+  background: #F985E4;
   color: black;
   margin: 0 0 5px;
   padding: 10px;
@@ -502,7 +491,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background: #e8d7fa;
+  background: #B1E8E5;
   -webkit-transition: background-color 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
@@ -526,27 +515,42 @@ fieldset {
     height: 80px;
   }
   .banner-home .banner-text {
-    font-size: 80px;
-    padding-top: 70%;
+    font-size: 60px;
+    padding-top: 50%;
   }
   .about .titulo h3 {
     font-size: 1.8rem;
   }
   .about .texto {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
+    width: 75%;
   }
-  .refcarta {
-    font-size: 20px;
+  .refcarta .texto {
+    font-size: 25px;
+    width: 75%;
   }
-  #social-text {
-    font-size: 40px;
+  .refcarta .boton .btn {
+    font-size: 15px;
   }
   #anfitriones h2 {
     font-weight: bold;
   }
-  .img-social {
-    max-width: 100%;
+  #anfitriones .card-group .card-body .card-title {
+    font-size: 15px;
+  }
+  #anfitriones .btn {
+    font-size: 15px;
+  }
+  #refcontact {
+    background-position: center;
+  }
+  #refcontact h2 {
+    font-size: 20px;
+    width: 50%;
+  }
+  #refcontact .btn {
+    font-size: 15px;
   }
   .banner-michis h1 {
     font-size: 50px;
@@ -577,5 +581,15 @@ fieldset {
     width: 100%;
     padding-top: 2rem;
   }
+}
+
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url(../fuentes/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: "Veneer";
+  src: url(../fuentes/Veneer.ttf);
 }
 /*# sourceMappingURL=main.css.map */

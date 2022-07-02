@@ -51,7 +51,7 @@
   content: "";
   right: 0;
   top: 0;
-  background: rgb(255, 255, 255);
+  background: $celestito;
   transition: all 0.3s ease;
 }
 .custom-btn:before {
@@ -81,7 +81,7 @@
   content: "";
   left: 0;
   bottom: 0;
-  background: rgb(255, 255, 255);
+  background: $rosita;
   transition: all 0.3s ease;
 }
 .custom-btn span:before {
@@ -103,4 +103,16 @@
   background-color: #212529;
   color: white;
   font-family: "Quicksand", sans-serif;
+ 
+    .bi {
+      color: $celestito;
+      font-size: 2rem;
+      padding: 10px;
+      &:hover {
+        box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
+        color: $rosita;
+        transform: scale(0.9);
+      }
+    }
+
 }

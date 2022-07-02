@@ -7,8 +7,8 @@
   }
   .banner-home {
     .banner-text {
-      font-size: 80px;
-      padding-top: 70%;
+      font-size: 60px;
+      padding-top: 50%;
     }
   }
 
@@ -19,27 +19,49 @@
       }
     }
     .texto {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       text-align: center;
+      width: 75%;
     }
   }
 
   .refcarta {
-    font-size: 20px;
-  }
-
-  #social-text {
-    font-size: 40px;
+    .texto {
+      font-size: 25px;
+      width: 75%;
+    }
+    .boton {
+      .btn {
+        font-size: 15px;
+      }
+    }
   }
 
   #anfitriones {
     h2 {
       font-weight: bold;
     }
+    .card-group {
+      .card-body {
+        .card-title {
+          font-size: 15px;
+        }
+      }
+    }
+    .btn {
+      font-size: 15px;
+    }
   }
 
-  .img-social {
-    max-width: 100%;
+  #refcontact {
+    background-position: center;
+    h2 {
+      font-size: 20px;
+      width: 50%;
+    }
+    .btn {
+      font-size: 15px;
+    }
   }
 
   .banner-michis h1 {

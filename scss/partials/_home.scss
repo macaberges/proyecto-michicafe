@@ -2,129 +2,96 @@
   background-size: cover;
   background-position: center;
   .banner-text {
-    font-family: "Amatic SC", cursive;
-    font-size: 140px;
+    font-family: "Veneer";
+    font-size: 15vh;
     text-align: center;
-    padding-top: 20%;
-    text-shadow: black;
+    padding-top: 15%;
+    text-shadow: 1px 1px 2px rgb(95, 93, 93);
     color: $colortexto-2;
   }
 }
 
 .about {
-  background-color: #212529;
-  background-position: center;
+  background-color: $principal;
+  background-position: right;
   background-size: cover;
   .titulo {
     h3 {
-      color: $colortexto-2;
-      font-family: "Quicksand", sans-serif;
+      color: $colortexto-1;
+      font-family: "Glacial Indifference";
       font-weight: bold;
       font-size: 2.5rem;
     }
   }
   .texto {
-    color: $colortexto-2;
-    font-family: "Quicksand", sans-serif;
+    color: $colortexto-1;
+    font-family: "Glacial Indifference";
     font-size: 1.4rem;
     text-align: justify;
   }
 }
 
-.refcarta { 
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../img/fondocarta.png);
+.refcarta {
+  background-image: url(../img/fondocarta.png);
   background-size: cover;
-  background-position: center;
-  font-family: "Quicksand", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  height: 750px;
-  .btn {
-    font-family: map-get($map: $estilosBoton, $key: fuente);
-    font-weight: map-get($map: $estilosBoton, $key: negrita);
-    font-size: map-get($map: $estilosBoton, $key: tamaño);
+  background-position: initial;
+  height: 800px;
+  .texto {
+    width: 50%;
+    font-family: "Glacial Indifference";
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+  }
+  .boton {
+    .btn {
+      font-size: 20px;
+      font-family: "Glacial Indifference";
+      font-weight: map-get($map: $estilosBoton, $key: negrita);
+    }
   }
 }
 
 #anfitriones {
-  background-color: #212529;
-  background-image: url(../img/bg-refmichis.png);
+  background-color: $principal;
   background-size: cover;
   text-align: center;
-  color: $colortexto-2;
-  font-family: "Quicksand", sans-serif;
+  color: $rosita;
+  font-family: "Glacial Indifference";
 
   .btn {
-    font-family: "Amatic SC", cursive;
-    font-size: 30px;
-    color: $colortexto-3;
+    font-family: "Glacial Indifference";
+    font-size: 20px;
   }
 }
 
-.card-body {
-  background-color: black;
+.card {
+  background-color: rgb(233, 242, 245);
 
   .card-title {
     text-align: center;
-    color: white;
-    font-size: 30px;
-    font-family: "Amatic SC", cursive;
+    color: $celestito;
+    font-size: 25px;
+    font-family: "Glacial Indifference";
   }
 }
 
 #refcontact {
-  background-image: url(../img/bg-refcontact.png);
+  background-image: url(../img/fondo-contact.png);
   background-size: cover;
-  background-position: center;
+  background-position: initial;
+  height: 50vh;
+  
   h2 {
-    padding-top: 10%;
-    padding-bottom: 10%;
     color: $colortexto-2;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Glacial Indifference";
+    width: 30%;
+    padding-bottom: 2%;
+    
   }
-  .btn {
-    color: $colortexto-3;
-    font-size: 30px;
-    font-family: "Amatic SC", cursive;
-  }
-}
-
-#social {
-  background-image: url(../img/bg-social.png);
-  background-size: cover;
-  #social-text {
-    font-size: 50px;
-    font-family: "Amatic SC", cursive;
-    padding-bottom: 10px;
-  }
-  .social {
-    .bi-instagram {
-      color: $colortexto-3;
-      font-size: 2rem;
-      padding: 10px;
-      &:hover {
-        box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
-        color: rgb(170, 116, 161);
-        transform: scale(0.9);
-      }
-    }
-
-    .bi-facebook {
-      @extend .bi-instagram;
-    }
-
-    .bi-twitter {
-      @extend .bi-instagram;
-    }
-  }
-
-  .img-social {
-    width: 50vh;
+  .btn { 
+    font-size: 20px;
+    font-family: "Glacial Indifference";
   }
 }

@@ -1,15 +1,18 @@
 .banner-carta {
-  @include banner(url(../img/banner-carta.jpg)) ;
+  @include banner(url(../img/banner-carta.jpg));
   .text-carta {
     @include bannerText;
   }
 }
 
 .carta {
-  background-image: url(../img/bg-menu.png);
-  background-size: contain;
-  background-position: top;
   background-color: #ffffff;
+  .title {
+    text-align: center;
+    font-family: "Glacial Indifference";
+    font-size: 40px;
+    color: $rosita;
+  }
 
   .img-carta {
     width: 100%;

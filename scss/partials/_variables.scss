@@ -2,8 +2,12 @@ $colortexto-1: rgb(32, 6, 19);
 $colortexto-2: rgb(252, 244, 233);
 $colortexto-3: rgb(224, 172, 208);
 
+$rosita: #F985E4;
+$celestito: #B1E8E5;
+$principal: #f3ece0;
+
 $estilosBoton: (
-  color: rgb(224, 172, 208),
+  color: rgb(156, 114, 79),
   centro: center,
   fuente: "Amatic SC",
   negrita: bold,
@@ -25,8 +29,10 @@ $estilosBoton: (
 }
 
 @mixin bannerText {
-  font-family: "Amatic SC", cursive;
+  font-family: "Veneer";
   color: white;
   text-shadow: black;
   font-size: 70px;
 }
+
+ 

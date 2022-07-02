@@ -6,13 +6,13 @@
 }
 
 .sucursales h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Glacial Indifference";
   font-weight: bold;
-  color: $colortexto-3;
+  color: $celestito;
 }
 
 .michicards .swiper {
-  width: 100%;
+  width: 90%;
   height: 100%;
 
   .swiper-slide {
@@ -36,16 +36,16 @@
     border-radius: 25px;
   }
   .michicard-title {
-    font-family: "Amatic SC", cursive;
+    font-family: "Glacial Indifference";
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     .michicard-text {
-      font-family: "Quicksand", sans-serif;
+      font-family: "Glacial Indifference";
       font-weight: bold;
     }
   }
 }
 
 :root {
-  --swiper-theme-color: pink !important;
+  --swiper-theme-color: #F985E4 !important;
 }
