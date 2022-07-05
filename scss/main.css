@@ -269,6 +269,78 @@
   width: 100%;
 }
 
+.tab-carta {
+  background-color: #f3ece0;
+}
+
+.tab-carta .nav-tabs button {
+  color: #F985E4;
+  font-family: "Glacial Indifference";
+  font-size: 20px;
+}
+
+.tab-content {
+  font-family: "Glacial Indifference";
+}
+
+.tab-content h3 {
+  color: #B1E8E5;
+}
+
+.tab-content p {
+  color: #fcf4e9;
+}
+
+#cafeteria-tab-pane {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/bg-cafe.jfif);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-cafe.jfif);
+  background-position: center;
+  background-size: cover;
+}
+
+#te-tab-pane {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/bg-te.jfif);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-te.jfif);
+  background-position: center;
+  background-size: cover;
+}
+
+#pasteleria-tab-pane {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/bg-pasteleria.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-pasteleria.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bebidas-tab-pane {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/bg-bebidas.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-bebidas.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#combos-tab-pane {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/bg-combos.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-combos.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .banner-galeria {
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/banner-galeria.jfif);
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner-galeria.jfif);
@@ -581,6 +653,19 @@ fieldset {
     text-align: center;
     width: 100%;
     padding-top: 2rem;
+  }
+  .tab-carta .nav-tabs button {
+    color: #F985E4;
+    font-family: "Glacial Indifference";
+    font-size: 15px;
+  }
+  .tab-content h3 {
+    font-size: 15px;
+    color: #B1E8E5;
+  }
+  .tab-content p {
+    font-size: 15px;
+    color: #fcf4e9;
   }
 }
 

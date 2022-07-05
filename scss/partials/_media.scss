@@ -97,4 +97,28 @@
     width: 100%;
     padding-top: 2rem;
   }
+
+  
+.tab-carta { 
+  .nav-tabs {
+    button {
+      color: $rosita;
+      font-family: "Glacial Indifference";
+      font-size: 15px;
+    }
+  }
 }
+  
+.tab-content {
+  
+  h3 {
+    font-size: 15px;
+    color: $celestito;
+  }
+  p {
+    font-size: 15px;
+    color: $colortexto-2;
+  }
+}
+}
+

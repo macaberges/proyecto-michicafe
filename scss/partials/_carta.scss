@@ -19,3 +19,80 @@
     width: 100%;
   }
 }
+
+.tab-carta {
+  background-color: $principal;
+  .nav-tabs {
+    button {
+      color: $rosita;
+      font-family: "Glacial Indifference";
+      font-size: 20px;
+    }
+  }
+}
+
+.tab-content {
+  font-family: "Glacial Indifference";
+  h3 {
+    color: $celestito;
+  }
+  p {
+    color: $colortexto-2;
+  }
+}
+
+#cafeteria-tab-pane {
+  height: fit-content;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/bg-cafe.jfif);
+  background-position: center;
+  background-size: cover;
+}
+#te-tab-pane {
+  height: fit-content;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/bg-te.jfif);
+  background-position: center;
+  background-size: cover;
+}
+#pasteleria-tab-pane {
+  height: fit-content;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/bg-pasteleria.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#bebidas-tab-pane {
+  height: fit-content;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/bg-bebidas.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#combos-tab-pane {
+  height: fit-content;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/bg-combos.jpg);
+  background-position: center;
+  background-size: cover;
+}

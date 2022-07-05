@@ -87,7 +87,7 @@
     </header>
 
     <!-- MENÚ  -->
-    <main id="menu">
+    <main>
       <div class="banner-carta">
         <h1 class="text-carta">
           CONOCÉ<br />
@@ -95,129 +95,262 @@
         </h1>
       </div>
 
-      <div class="carta ">
-        <div class="title">♡ CAFETERÍA ♡</div>
-        <div class="row p-5">
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-1.png"
-              alt="Michi Cafe Carta Menu"
-            />
+      <section class="tab-carta container-fluid pt-5 pb-5">
+        <ul
+          class="nav nav-tabs justify-content-center"
+          id="myTab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="cafeteria-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#cafeteria-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="cafeteria-tab-pane"
+              aria-selected="true"
+            >
+              CAFETERÍA
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="te-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#te-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="te-tab-pane"
+              aria-selected="false"
+            >
+              TÉ
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pasteleria-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#pasteleria-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="pasteleria-tab-pane"
+              aria-selected="false"
+            >
+              PASTELERÍA
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="bebidas-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#bebidas-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="bebidas-tab-pane"
+              aria-selected="false"
+            >
+              BEBIDAS
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="combos-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#combos-tab-pane"
+              type="button"
+              role="tab"
+              aria-controls="combos-tab-pane"
+              aria-selected="false"
+            >
+              PARA COMPARTIR
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active p-5 text-center"
+            id="cafeteria-tab-pane"
+            role="tabpanel"
+            aria-labelledby="cafeteria-tab"
+            tabindex="0"
+          >
+            <div>
+              <h3>♡ CAFÉ ♡</h3>
+              <p>• Expresso •</p>
+              <p>• Americano •</p>
+              <p>• Latte •</p>
+              <p>• Macchiato •</p>
+            </div>
+            <div class="pt-3">
+              <h3>♡ MILKSHAKES ♡</h3>
+              <p>• Frutilla •</p>
+              <p>• Dulce de Leche •</p>
+              <p>• Chocolate •</p>
+              <p>• Oreo •</p>
+            </div>
+            <div class="pt-3">
+              <h3>♡ A TU GUSTO ♡</h3>
+              <p>• Chocolatada •</p>
+              <p>• Mate Cocido •</p>
+              <p>• Frapuccino •</p>
+              <p>• Submarino •</p>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-2.png"
-              alt="Michi Cafe Carta Menu"
-            />
+          <div
+            class="tab-pane fade p-5 text-center"
+            id="te-tab-pane"
+            role="tabpanel"
+            aria-labelledby="te-tab"
+            tabindex="0"
+          >
+            <div class="pb-5">
+              <h3>♡ PEPITO ♡</h3>
+              <p>
+                • Té rojo, arándanos azules, pasas de uva, cascarilla de cacao y
+                notas de vainilla •
+              </p>
+            </div>
+            <div class="pb-5">
+              <h3>♡ FLO TEA ♡</h3>
+              <p>• Té negro, durazno y frutilla •</p>
+            </div>
+            <div>
+              <h3>♡ KITTY MANTRA ♡</h3>
+              <p>
+                • Té verde, jengibre, papaya, manzanilla y pétalos de caléndula
+                •
+              </p>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-3.png"
-              alt="Michi Cafe Carta Menu"
-            />
-          </div>
-        </div>
 
-        <div class="title ">♡ TÉ ♡</div>
-        <div class="row p-5">
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-4.png"
-              alt="Michi Cafe Carta Menu"
-            />
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-5.png"
-              alt="Michi Cafe Carta Menu"
-            />
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-6.png"
-              alt="Michi Cafe Carta Menu"
-            />
-          </div>
-        </div>
+          <div
+            class="tab-pane fade text-center p-5"
+            id="pasteleria-tab-pane"
+            role="tabpanel"
+            aria-labelledby="pasteleria-tab"
+            tabindex="0"
+          >
+            <div class="pb-4">
+              <h3>♡ ALFAJORES ♡</h3>
+              <p>• Almendra •</p>
+              <p>• Chocolate •</p>
+              <p>• Nuez y Chocolate •</p>
+              <p>• Coco y Dulce de Leche •</p>
+            </div>
+            <div class="pb-4">
+              <h3>♡ WAFFLES ♡</h3>
+              <p>• Frutos Rojos •</p>
+              <p>• Dulce de Leche •</p>
+              <p>• Banana •</p>
+              <p>• Nutella •</p>
+            </div>
 
-        <div class="title ">♡ PASTELERÍA ♡</div>
-        <div class="row p-5">
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-7.png"
-              alt="Michi Cafe Carta Menu"
-            />
+            <div class="pb-4">
+              <h3>♡ LINGOTES ♡</h3>
+              <p>• Chocotorta •</p>
+              <p>• Oreo •</p>
+              <p>• Lemon Pie •</p>
+              <p>• Carrot Cake •</p>
+            </div>
+            <div class="pb-4">
+              <h3>♡ TORTAS ♡</h3>
+              <p>• Havanette •</p>
+              <p>• Lemon Pie •</p>
+              <p>• Merengue •</p>
+              <p>• Brownie •</p>
+            </div>
+
+            <div class="pb-4">
+              <h3>♡ TOSTADOS ♡</h3>
+              <p>• Jamón y Queso •</p>
+              <p>• Queso solo •</p>
+              <p>• Queso y Tomate •</p>
+              <p>• Bacon, Queso y Tomate •</p>
+              <p>• Cheddar, Panceta y Huevo •</p>
+            </div>
+            <div class="pb-4">
+              <h3>♡ MEDIALUNAS ♡</h3>
+              <p>• Clásica •</p>
+              <p>• Jamón y Queso •</p>
+              <p>• Queso solo •</p>
+              <p>• Dulce de Leche •</p>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-8.png"
-              alt="Michi Cafe Carta Menu"
-            />
+
+          <div
+            class="tab-pane fade text-center p-5"
+            id="bebidas-tab-pane"
+            role="tabpanel"
+            aria-labelledby="bebidas-tab"
+            tabindex="0"
+          >
+            <div>
+              <h3>♡ GASEOSAS ♡</h3>
+              <p>• Agua •</p>
+              <p>• Línea Coca (500ml) •</p>
+              <p>• Línea Coca (2.15lt) •</p>
+              <p>• Jugos (Cepita de Naranja, manzana y multifruta)•</p>
+            </div>
+            <div class="pt-3">
+              <h3>♡ LICUADOS ♡</h3>
+              <p>• Al Agua •</p>
+              <p>• Con Leche •</p>
+              <p>• Smoothie •</p>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-9.png"
-              alt="Michi Cafe Carta Menu"
-            />
+          <div
+            class="tab-pane fade"
+            id="combos-tab-pane"
+            role="tabpanel"
+            aria-labelledby="combos-tab"
+            tabindex="0"
+          >
+            <div class="text-center gap-5 p-5">
+              <div class="">
+                <h3>♡ COMBOS ♡</h3>
+                <p>• Café con leche + 3 medialunas •</p>
+                <p>• Café con leche + 3 tostadas •</p>
+                <p>• Café con leche + Trifle + Dos medialunas con jyq •</p>
+                <p>
+                  • Café con leche + Trifle + 2 tostadas en pan multicereal •
+                </p>
+                <p>• Capuccino + French toast + Copita de exprimido •</p>
+                <p>• Café con leche + bowl saludable + jugo detox •</p>
+                <p>• Té matcha + Dos tostadas •</p>
+                <p>• Café con leche + Bowl saludable + Jugo detox •</p>
+                <p>• Café con leche + Croissant + Copita de exprimido •</p>
+              </div>
+              <div>
+                <h3>♡ BRUNCHES ♡</h3>
+                <p>
+                  • Dos café con leche + mix de frutas + trifle + dos tostadas
+                  con huevo revuelto y panceta •
+                </p>
+                <p>
+                  • Jarra detox + torre de waffles + lingote + budín + alfajor +
+                  dos medialunas con jyq •
+                </p>
+                <p>
+                  • Dos jugos detox + croissant rellena + mix de frutas + budín
+                  + omelette de garbanzos •
+                </p>
+                <p>
+                  • Dos exprimidos de naranja + dos tostadas con huevo revuelto
+                  y panceta <br />
+                  + dos scones de queso rellenos + plato de fiambres + dos
+                  medialunas + salchichas c/ barbacoa •
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row p-5">
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-10.png"
-              alt="Michi Cafe Carta Menu"
-            />
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-11.png"
-              alt="Michi Cafe Carta Menu"
-            />
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <img
-              class="img-carta"
-              src="../img/carta-12.png"
-              alt="Michi Cafe Carta Menu"
-            />
-          </div>
-          <div class="title ">♡ CAFETERÍA ♡</div>
-          <div class="row p-5">
-            <div class="col-md-4 col-sm-12">
-              <img
-                class="img-carta"
-                src="../img/carta-1.png"
-                alt="Michi Cafe Carta Menu"
-              />
-            </div>
-            <div class="col-md-4 col-sm-12">
-              <img
-                class="img-carta"
-                src="../img/carta-2.png"
-                alt="Michi Cafe Carta Menu"
-              />
-            </div>
-            <div class="col-md-4 col-sm-12">
-              <img
-                class="img-carta"
-                src="../img/carta-3.png"
-                alt="Michi Cafe Carta Menu"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
