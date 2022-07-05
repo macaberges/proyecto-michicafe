@@ -1,3 +1,7 @@
+#gallery {
+  background-color: $principal;
+}
+
 .banner-galeria {
   @include banner(url(../img/banner-galeria.jfif));
 
@@ -9,17 +13,17 @@
 .gifgaleria {
   text-align: center;
   .texto-gif {
-    font-family: "Glacial Indifference" ;
+    font-family: "Glacial Indifference";
     font-size: 2rem;
     text-align: center;
-    color: rgb(202, 137, 99);
+    color: $rosita;
     text-shadow: black;
     width: 75%;
   }
 }
 
 #galeria {
-  img { 
+  img {
     &:hover {
       filter: brightness(80%);
     }
@@ -36,4 +40,4 @@
       transform: scale(0.9);
     }
   }
-}  
+}

@@ -1,3 +1,7 @@
+#michis {
+  background-color: $principal;
+}
+
 .banner-michis {
   @include banner(url(../img/banner-michis.jfif));
   h1 {
@@ -8,7 +12,7 @@
 .sucursales h2 {
   font-family: "Glacial Indifference";
   font-weight: bold;
-  color: $celestito;
+  color: $rosita;
 }
 
 .michicards .swiper {
@@ -47,5 +51,5 @@
 }
 
 :root {
-  --swiper-theme-color: #F985E4 !important;
+  --swiper-theme-color: #b1e8e5 !important;
 }
