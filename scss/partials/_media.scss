@@ -14,21 +14,23 @@
 
   .about {
     .titulo {
-      h3 {
-        font-size: 1.8rem;
+      h2 {
+        font-size: 20px;
       }
     }
     .texto {
-      font-size: 1.1rem;
+      font-size: 15px;
       text-align: center;
+      padding-top: 5%;
       width: 75%;
     }
   }
 
   .refcarta {
     .texto {
-      font-size: 25px;
-      width: 75%;
+      font-size: 20px;
+      width: 100%;
+      padding-bottom: 10%;
     }
     .boton {
       .btn {
@@ -116,6 +118,46 @@
     p {
       font-size: 15px;
       color: $colortexto-2;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .banner-home {
+    width: 100vh;
+    background-position-y: 62%;
+    .banner-text {
+      padding-top: 10%;
+    }
+  }
+  .about {
+    padding-top: 5%;
+
+    font-size: 30px;
+    .texto {
+      padding-right: 10%;
+      font-size: 25px;
+    }
+  }
+
+  .refcarta {
+    .texto {
+      padding-top: 7%;
+      font-size: 30px;
+    }
+    .boton {
+      font-size: 40px;
+      padding-top: 2%;
+    }
+  }
+
+  #refcontact {
+    h2 {
+      font-size: 30px;
+      padding-top: 3%;
+    }
+    .btn {
+      font-size: 20px;
     }
   }
 }

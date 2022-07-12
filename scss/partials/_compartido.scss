@@ -103,16 +103,15 @@
   background-color: #212529;
   color: white;
   font-family: "Quicksand", sans-serif;
- 
-    .bi {
-      color: $celestito;
-      font-size: 2rem;
-      padding: 10px;
-      &:hover {
-        box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
-        color: $rosita;
-        transform: scale(0.9);
-      }
-    }
 
+  .bi {
+    color: $celestito;
+    font-size: 2rem;
+    padding: 10px;
+    &:hover {
+      box-shadow: 0px 0px 0px rgba(0, 8, 5, 0.4);
+      color: $rosita;
+      transform: scale(0.9);
+    }
+  }
 }

@@ -138,8 +138,11 @@
 }
 
 .banner-home {
-  background-size: cover;
   background-position: center;
+  background-image: url("../img/banner-nav.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-home .banner-text {
@@ -157,7 +160,7 @@
   background-size: cover;
 }
 
-.about .titulo h3 {
+.about .titulo h2 {
   color: #200613;
   font-family: "Glacial Indifference";
   font-weight: bold;
@@ -167,7 +170,7 @@
 .about .texto {
   color: #200613;
   font-family: "Glacial Indifference";
-  font-size: 1.4rem;
+  font-size: 0.5rem;
   text-align: justify;
 }
 
@@ -212,7 +215,7 @@
 
 .card .card-title {
   text-align: center;
-  color: #b1e8e5;
+  color: #f985e4;
   font-size: 25px;
   font-family: "Glacial Indifference";
 }
@@ -229,6 +232,7 @@
   font-family: "Glacial Indifference";
   width: 30%;
   padding-bottom: 2%;
+  font-size: 30px;
 }
 
 #refcontact .btn {
@@ -243,7 +247,7 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15vh;
 }
 
 .banner-carta .text-carta {
@@ -352,7 +356,7 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15vh;
 }
 
 .banner-galeria .text-galeria {
@@ -404,7 +408,7 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15vh;
 }
 
 .banner-michis h1 {
@@ -470,7 +474,7 @@
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15vh;
 }
 
 .banner-contacto h1 {
@@ -599,17 +603,19 @@ fieldset {
     font-size: 60px;
     padding-top: 50%;
   }
-  .about .titulo h3 {
-    font-size: 1.8rem;
+  .about .titulo h2 {
+    font-size: 20px;
   }
   .about .texto {
-    font-size: 1.1rem;
+    font-size: 15px;
     text-align: center;
+    padding-top: 5%;
     width: 75%;
   }
   .refcarta .texto {
-    font-size: 25px;
-    width: 75%;
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 10%;
   }
   .refcarta .boton .btn {
     font-size: 15px;
@@ -674,6 +680,39 @@ fieldset {
   .tab-content p {
     font-size: 15px;
     color: #fcf4e9;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .banner-home {
+    width: 100vh;
+    background-position-y: 62%;
+  }
+  .banner-home .banner-text {
+    padding-top: 10%;
+  }
+  .about {
+    padding-top: 5%;
+    font-size: 30px;
+  }
+  .about .texto {
+    padding-right: 10%;
+    font-size: 25px;
+  }
+  .refcarta .texto {
+    padding-top: 7%;
+    font-size: 30px;
+  }
+  .refcarta .boton {
+    font-size: 40px;
+    padding-top: 2%;
+  }
+  #refcontact h2 {
+    font-size: 30px;
+    padding-top: 3%;
+  }
+  #refcontact .btn {
+    font-size: 20px;
   }
 }
 
