@@ -16,6 +16,7 @@
 }
 
 .about {
+  padding-top: 1%;
   background-color: $principal;
   background-position: right;
   background-size: cover;
@@ -25,14 +26,14 @@
       color: $colortexto-1;
       font-family: "Glacial Indifference";
       font-weight: bold;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
   }
   .texto {
     color: $colortexto-1;
     font-family: "Glacial Indifference";
-    font-size: 0.5rem;
-    text-align: justify;
+    font-size: 1.2rem; 
+    padding: 2%;
   }
 }
 

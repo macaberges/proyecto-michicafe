@@ -155,6 +155,7 @@
 }
 
 .about {
+  padding-top: 1%;
   background-color: #f3ece0;
   background-position: right;
   background-size: cover;
@@ -164,14 +165,14 @@
   color: #200613;
   font-family: "Glacial Indifference";
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .about .texto {
   color: #200613;
   font-family: "Glacial Indifference";
-  font-size: 0.5rem;
-  text-align: justify;
+  font-size: 1.2rem;
+  padding: 2%;
 }
 
 .refcarta {
@@ -603,14 +604,11 @@ fieldset {
     font-size: 60px;
     padding-top: 50%;
   }
-  .about .titulo h2 {
+  .about .titulo {
     font-size: 20px;
   }
   .about .texto {
     font-size: 15px;
-    text-align: center;
-    padding-top: 5%;
-    width: 75%;
   }
   .refcarta .texto {
     font-size: 20px;
@@ -690,14 +688,6 @@ fieldset {
   }
   .banner-home .banner-text {
     padding-top: 10%;
-  }
-  .about {
-    padding-top: 5%;
-    font-size: 30px;
-  }
-  .about .texto {
-    padding-right: 10%;
-    font-size: 25px;
   }
   .refcarta .texto {
     padding-top: 7%;
